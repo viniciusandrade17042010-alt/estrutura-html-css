@@ -1,2 +1,2 @@
-# estrutura-html-css
-estrutura básica em HTML e CSS
+# Estrutura-HTML5-CSS3
+Estrutura básica em HTML5 e CSS3
