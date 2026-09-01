@@ -1,0 +1,73 @@
+/*Configurações Gerais*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+/* Cabeçalho e Navegação */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+header h2 {
+    font-size: 1.2em;
+    color: #bdc3c7;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #f1c40f;
+}
+/* Conteudo Principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    margin-bottom: 15px;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+/* Rodapé */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    front-size: 0.9em;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
